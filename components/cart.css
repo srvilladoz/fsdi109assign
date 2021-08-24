@@ -1,0 +1,7 @@
+.cart-page .cart-container {
+    flex: 4;
+}
+
+.cart-page .total-container {
+    flex: 1;
+}

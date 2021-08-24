@@ -1,0 +1,5 @@
+.navbar {
+    font-size: 20px;
+    color: white;
+    background-color: var(--primary);
+}

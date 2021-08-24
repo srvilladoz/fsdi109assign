@@ -1,0 +1,40 @@
+.item {
+  background-color: #fff;
+  display: inline-block;
+  width: 250px;
+  height: 350px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-shadow: -1px 1px 3px 0 var(--shadow);
+
+}
+
+.item:hover {
+  border: 1px solid #b4b4b4;
+  cursor: pointer;
+}
+
+.item img{
+  width: 230px;
+}
+
+.item h5 {
+  text-align: center;
+  color: #333;
+  margin-top: -10px;
+}
+
+.item .item-controls > *{
+  display: inline-block;
+}
+
+.item .item-controls {
+  margin-top: 15px;
+}
+
+.item .btn-add {
+  margin-left: 20px;
+}
